@@ -1,3 +1,17 @@
+# 原脚本实测中发现有两个问题，不知道是否是个例：
+1.curl | bash 导致 read 读不到 stdin，最终安装Abort，提示[WARNING] getUpdates err: ret=None ec=-14。
+
+2.使用/openclaw从hermes切换到openclaw时发生故障，两遍都能收到信息并回复
+
+基于上面两个问题，借用Claude对脚本进行了修改，修复了curl|bash 导致 Aborted和WEIXIN_BASE_URL patch 失败导致 Hermes 绕过 hermesclaw问题，目前我这边实测是正常了。
+## Quick Install
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/siasbaily/hermesclaw/refs/heads/main/fix-install.sh | bash
+```
+
+以下内容为原作者发布
+======================================================================================================================================================================================================================
 # HermesClaw
 
 **Dual-open [Hermes Agent](https://github.com/NousResearch/hermes-agent) and [OpenClaw](https://github.com/openclaw/openclaw) on the same WeChat account. One command to install.**
