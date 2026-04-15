@@ -9,6 +9,10 @@
 ```bash
 curl -fsSL https://raw.githubusercontent.com/siasbaily/hermesclaw/refs/heads/main/fix-install.sh | bash
 ```
+## Acknowledgements
+
+- [AaronWong1999/hermesclaw](https://github.com/AaronWong1999/hermesclaw)
+
 
 以下内容为原作者发布
 ======================================================================================================================================================================================================================
