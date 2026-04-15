@@ -13,7 +13,13 @@ curl -fsSL https://raw.githubusercontent.com/siasbaily/hermesclaw/refs/heads/mai
 
 - [AaronWong1999/hermesclaw](https://github.com/AaronWong1999/hermesclaw)
 
+## Star History
 
+<a href="https://www.star-history.com/#siasbaily/hermesclaw&Date">
+  <img src="https://api.star-history.com/svg?repos=siasbaily/hermesclaw&type=Date" alt="Star History Chart" width="600">
+</a>
+
+---
 以下内容为原作者发布
 ======================================================================================================================================================================================================================
 # HermesClaw
